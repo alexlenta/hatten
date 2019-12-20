@@ -1,0 +1,47 @@
+@import '../assets/style/colors.scss';
+
+.Navbar {
+  min-height: 300px;
+  width: 100%;
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: $darkGrey;
+    padding: 12px 60px;
+    margin: 12px 0;
+    transition: 0.2s background-color ease-out;
+
+    img {
+      width: 26px;
+      margin-right: 26px;
+    }
+
+    svg {
+      fill: $darkGrey;
+      margin-right: 35px;
+    }
+
+    &:active,
+    &:visited {
+      text-decoration: none;
+      color: $darkGrey;
+    }
+
+    &:hover {
+      background-color: $lightGrey;
+    }
+
+    &.active {
+      background-color: $lightGrey;
+      color: $primary;
+
+      svg {
+        fill: $primary;
+      }
+    }
+  }
+}

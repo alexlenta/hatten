@@ -1,0 +1,25 @@
+@import '../../assets/style/colors.scss';
+
+.TaskAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px 16px;
+  color: $darkGrey;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.2s color ease-out;
+
+  svg {
+    fill: $darkGrey;
+    margin-right: 4px;
+  }
+
+  &:hover {
+    color: $black;
+
+    svg {
+      fill: $black;
+    }
+  }
+}

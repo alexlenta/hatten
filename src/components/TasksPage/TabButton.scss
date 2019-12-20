@@ -1,0 +1,32 @@
+@import '../../assets/style/colors.scss';
+
+a.TabButton {
+  display: block;
+  flex: 1;
+  color: $grey;
+  font-weight: 600;
+  font-size: 1.15rem;
+  padding: 20px 20px 8px;
+  border-bottom: 2px solid $grey;
+  text-align: center;
+  transition: 0.2s color ease-out;
+
+  &:active,
+  &:visited {
+    color: $grey;
+  }
+
+  &:hover {
+    color: darken($color: $grey, $amount: 20%);
+  }
+
+  &.active {
+    color: $primary;
+    border-bottom: 3px solid $primary;
+
+    &:active,
+    &:visited {
+      color: $primary;
+    }
+  }
+}

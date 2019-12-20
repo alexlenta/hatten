@@ -1,0 +1,24 @@
+@import '../assets/style/colors.scss';
+
+.PageContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .page-card {
+    background-color: $lightGrey;
+    padding: 58px;
+    flex: 1;
+    margin-right: 40px;
+    border-radius: 50px;
+    min-height: 400px;
+    max-height: 85%;
+    position: relative;
+  }
+
+  &.with-modal {
+    .page-card > :not(.modal) {
+      filter: blur(4px);
+    }
+  }
+}

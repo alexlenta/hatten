@@ -1,0 +1,35 @@
+@import '../assets/style/colors.scss';
+
+.UserBox {
+  $profileImgSize: 84px;
+
+  text-align: center;
+  min-height: 180px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  .profile-img {
+    width: $profileImgSize;
+    height: $profileImgSize;
+    border-radius: $profileImgSize / 2;
+    margin: 0 auto 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: dimgrey;
+  }
+
+  .user-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+  }
+
+  .user-job {
+    font-weight: 300;
+    color: $grey;
+  }
+}

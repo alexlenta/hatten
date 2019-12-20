@@ -1,0 +1,55 @@
+{
+  "tasks": {
+    "barTasks": [
+      {
+        "id": 1,
+        "title": "Cardboard",
+        "description": "Recycle the cardboard bla bla with a very long description",
+        "user": {
+          "name": "Bob"
+        },
+        "dateString": "30 Nov",
+        "priority": "high"
+      },
+      {
+        "id": 2,
+        "title": "Trash",
+        "description": "Recycle the cardboard bla bla",
+        "user": {
+          "name": "Nicklas"
+        },
+        "dateString": "04 Dec",
+        "priority": "low"
+      },
+      {
+        "id": 3,
+        "title": "Bottle clean",
+        "description": "Recycle the cardboard bla bla",
+        "user": {
+          "name": "Rikke"
+        },
+        "dateString": "12 Dec",
+        "priority": "optional"
+      }
+    ]
+  },
+  "user": {
+    "name": "Alex Lenta",
+    "jobTitle": "Manager",
+    "profileImg": null
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "Bob"
+    },
+    {
+      "id": 2,
+      "name": "Nicklas"
+    },
+    {
+      "id": 3,
+      "name": "Rikke"
+    }
+  ]
+}

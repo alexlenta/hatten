@@ -1,0 +1,15 @@
+.BarLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+
+  .bar-logo-container {
+    width: 220px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '../../../assets/style/colors.scss';
+
+.BarTab {
+  .empty {
+    margin-top: 55px;
+    text-align: center;
+  }
+
+  .TaskItem {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+
+    .table-header {
+      flex: 1;
+      padding: 10px 10px 14px;
+      min-width: 50px;
+      color: $grey;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-align: center;
+
+      &:nth-child(1) {
+        flex: 0.25;
+      }
+
+      &:nth-child(3) {
+        flex: 3;
+      }
+    }
+  }
+}

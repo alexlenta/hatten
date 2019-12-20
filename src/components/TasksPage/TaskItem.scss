@@ -1,0 +1,20 @@
+.TaskItem {
+  .cell {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    min-width: 50px;
+
+    &:nth-child(1) {
+      flex: 0.25;
+    }
+
+    &:nth-child(2) {
+      font-weight: 600;
+    }
+
+    &:nth-child(3) {
+      flex: 3;
+    }
+  }
+}
